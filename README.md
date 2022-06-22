@@ -106,7 +106,7 @@ Your web app should now be running if there were no errors.
 
 ## Results<a name="results"></a>
 
-MY Github repository: [https://github.com/SebastianHess/disaster_response_pipeline.git](https://github.com/SebastianHess/Disaster_Response_Pipeline.git)
+MY Github repository: [https://github.com/SebastianHess/Disaster_Response_Pipeline.git](https://github.com/SebastianHess/Disaster_Response_Pipeline.git)
 
 
 

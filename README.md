@@ -2,14 +2,23 @@
 
 ### Table of Contents
 
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Project Motivation](#motivation)
+4. [File Descriptions](#files)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
-## Installation <a name="installation"></a>
+## 1. Introduction <a name="introduction"></a>
+
+![ ](pexels-denniz-futalan-942560.jpg)
+(Source: https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/)
+
+
+
+
+## 2. Installation <a name="installation"></a>
 
 Everything will run with a Python 3.x version.
 It is necessary to install the following libraries to run the code in Anaconda. 
@@ -39,7 +48,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 ```
 
-## Project Motivation<a name="motivation"></a>
+## 3. Project Motivation<a name="motivation"></a>
 
 #### ETL Pipeline
 
@@ -57,7 +66,7 @@ After completing the jupyter notebooks for the ETL and machine learning pipeline
 The results are displayed in a Flask web app. A file structure with starter files is provided. **Html**, **css**, and **javascript** is used to make the web app including visualizations. 
 
 
-## File Descriptions <a name="files"></a>
+## 4. File Descriptions <a name="files"></a>
 
 ### File structure
 ```
@@ -104,13 +113,13 @@ Your web app should now be running if there were no errors.
 
 
 
-## Results<a name="results"></a>
+## 5. Results<a name="results"></a>
 
 MY Github repository: [https://github.com/SebastianHess/Disaster_Response_Pipeline.git](https://github.com/SebastianHess/Disaster_Response_Pipeline.git)
 
 
 
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+## 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 * Thanks to my employer for enabling me to take the Udacity Nanodegree and for supporting me.
 * Thanks to Udacity for the amazing [Data Scientist Nanodegree Programm](https://www.udacity.com/course/data-scientist-nanodegree--nd025).

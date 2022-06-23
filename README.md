@@ -14,9 +14,9 @@
 
 <p align="center">
     <img width="640" height="427" src="pics/pexels-denniz-futalan-942560.jpg">   
-    <span style="font-size:4em;">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
 </p>
 
+<span style="font-size:4em;">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
 
 ## 2. Installation <a name="installation"></a>
 

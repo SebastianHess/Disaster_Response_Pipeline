@@ -12,8 +12,7 @@
 
 ## 1. Introduction <a name="introduction"></a>
  
-![](pics/pexels-denniz-futalan-942560.jpg)   
-![](pics/pexels-denniz-futalan-942560.jpg)   
+![](pics/pexels-denniz-futalan-942560.jpg)    
 <span style="font-size:1em;">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
 
 ### Project Overview
@@ -26,11 +25,13 @@ The project includes a webb app which fulfills the following parts:
 
 1. An input of an new message will create classified results in several categories. 
 
+![](pics/disaster-response-project_1.png)    
+
 2. It displays also visualizations of the data. 
 
+![](pics/disaster-response-project_2.png)   
 
-
-https://learn.udacity.com/nanodegrees/nd025/parts/cd0018/lessons/ea367f74-3d5a-42b1-92a3-d3d3734fd369/concepts/d7e645c3-a521-4214-8bd5-30e7137365cc
+<span style="font-size:1em;">[Source of picture](https://learn.udacity.com/nanodegrees/nd025/parts/cd0018/lessons/ea367f74-3d5a-42b1-92a3-d3d3734fd369/concepts/d7e645c3-a521-4214-8bd5-30e7137365cc")</span>
 
 
 ## 2. Installation <a name="installation"></a>

@@ -12,7 +12,7 @@
 
 ## 1. Introduction <a name="introduction"></a>
 
-![ ](pexels-denniz-futalan-942560.jpg)
+![ ](pics/pexels-denniz-futalan-942560.jpg)
 (Source: https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/)
 
 

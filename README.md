@@ -14,9 +14,10 @@
 
 <p align="center">
     <img src="/pics/pexels-denniz-futalan-942560.jpg">
+    <div style="text-align: center"> your-text-here </div>
 </p>
 
-<div style="text-align: right"> your-text-here </div>
+<div style="text-align: center"> your-text-here </div>
 
 [Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")
 

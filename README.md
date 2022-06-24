@@ -16,7 +16,7 @@
     <img src="/pics/pexels-denniz-futalan-942560.jpg">
 </p>
 
-<span style="text-align: right">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
+<span style="text-align: center;">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
 
   
 

@@ -12,6 +12,9 @@
 
 ## 1. Introduction <a name="introduction"></a>
 
+
+![0](/pics/pexels-denniz-futalan-942560.jpg)
+
 <p align="center">
     <img src="/pics/pexels-denniz-futalan-942560.jpg">
     <div style="text-align: center"> your-text-here </div>

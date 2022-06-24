@@ -13,7 +13,7 @@
 ## 1. Introduction <a name="introduction"></a>
 
 
-![0](/pics/pexels-denniz-futalan-942560.jpg)
+![0](/pics/pexels-denniz-futalan-942560.jpg)   
 
 [Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")
 

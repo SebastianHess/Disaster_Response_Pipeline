@@ -12,7 +12,7 @@
 
 ## 1. Introduction <a name="introduction"></a>
 
-<div style="text-align:center"> 
+<div align="center"> 
     <img src="/pics/pexels-denniz-futalan-942560.jpg">
     <span style="font-size:1em;">[Source of picture](https://www.pexels.com/de-de/foto/silhouette-des-feuerwehrmanns-der-schlauch-halt-942560/ "Source of picture")</span>
 </div>

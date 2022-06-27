@@ -6,11 +6,11 @@ from sqlalchemy import create_engine
 # Function: Loading data 
 def load_data(messages_filepath, categories_filepath):
     """
-    Function:   Reading in messages and categories datasets and 
-                returning merged dataset df.
-    Args:       messages_filepath - Messages csv-file path, 
-                categories_filepath - Categories csv-file path
-    Return:     df - Merged dataset 
+    load_data:   Reading in messages and categories datasets and 
+                 returning merged dataset df
+    Input:       messages_filepath - Messages csv-file path, 
+                 categories_filepath - Categories csv-file path
+    Returns:     df - Merged dataset 
     """
 
     # Reading in files
@@ -23,9 +23,9 @@ def load_data(messages_filepath, categories_filepath):
 # Function: Cleaning data
 def clean_data(df):
     """
-    Function:   Cleaning merged dataset df.
-    Args:       df - Merged dataset
-    Return:     df - Merged and cleaned dataset
+    clean_data:   Cleaning merged dataset df
+    Input:        df - Merged dataset
+    Returns:      df - Merged and cleaned dataset
     """
     
     # Creating a dataframe of the 36 individual category columns
@@ -48,6 +48,9 @@ def clean_data(df):
         # Converting column from string to numeric
         categories[column] = pd.to_numeric(categories[column])
 
+    # Selecting all values except 2 in categories dataframe column "related"
+    categories = categories[categories.related !=2]
+
     # Dropping the original categories column from `df`
     df.drop('categories', inplace=True, axis=1)
 
@@ -63,24 +66,24 @@ def clean_data(df):
 # Function: Saving to database
 def save_database(df, database_filename):
     """
-    Function:   Saving merged and cleaned dataset df to a sqlite database.
-    Args:       df - merged and cleaned dataset, 
-                database_filename - File name of database
-    Return:     disaster_response_pipeline.db - Saved sqlite database
+    save_database:   Saving merged and cleaned dataset df to a sqlite database
+    Input:           df - merged and cleaned dataset,
+                     database_filename - File name of database
+    Returns:         disaster_response_pipeline.db - Saved sqlite database
     """
 
     # Saving the clean dataset into an sqlite database
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('disaster_response_pipeline', engine, index=False)
+    df.to_sql('disaster_response_pipeline', engine, index=False, if_exists='replace')
 
   
 # Function: main (already provided by Udacity)  
 def main():
     """
-    Function:   Main function to process data and 
-                saving a cleaned dataset as SQLite database.
-    Args:       -
-    Return:     -
+    main:      Main function to process data and 
+               saving a cleaned dataset as SQLite database
+    Input:     -
+    Returns:   -
     """
     if len(sys.argv) == 4:
 

@@ -41,15 +41,15 @@ def clean_data(df):
     categories.columns = category_colnames
 
     # Converting category values to just numbers 0 or 1
-    for column in categories:
+    for col in categories:
         # Setting each value to be the last character of the string
-        categories[column] = categories[column].str[-1:]
+        categories[col] = categories[col].str[-1:]
 
         # Converting column from string to numeric
-        categories[column] = pd.to_numeric(categories[column])
+        categories[col] = pd.to_numeric(categories[col])
 
-    # Selecting all values except 2 in categories dataframe column "related"
-    categories = categories[categories.related !=2]
+    # Replacing all values of "2" in categories dataframe column "related"
+    categories['related'].replace(inplace=True, to_replace=2, value=1)
 
     # Dropping the original categories column from `df`
     df.drop('categories', inplace=True, axis=1)
@@ -59,6 +59,12 @@ def clean_data(df):
 
     # Dropping duplicates
     df.drop_duplicates(inplace=True)
+
+    # Filling NaN values with value "0"
+    #pd.DataFrame(df).fillna(0,inplace=True)
+
+    # Dropping column "original" because of NaN values
+    df = df.drop(['original'], axis=1)
 
     return df
 
